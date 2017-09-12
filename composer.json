@@ -1,17 +1,12 @@
 {
-    "name": "newism/nsm-emoji-bundle",
-    "description": "Emjoi Bundle for Symfony2",
-    "keywords": ["symfony2", "emoji", "twig"],
-    "homepage": "https://github.com/newism/NSMEmojiBundle",
+    "name": "xaviereyl/sf3-emoji-bundle",
+    "description": "Emjoi Bundle for Symfony3",
+    "keywords": ["symfony3", "emoji", "twig"],
+    "homepage": "https://github.com/xaviereyl/SF3EmojiBundle",
     "type": "symfony-bundle",
     "authors": [
         {
-            "name": "Newism Pty Ltd",
-            "homepage": "http://newism.com.au"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://github.com/newism/NSMEmojiBundle/contributors"
+            "name": "Xavier Eyl"
         }
     ],
     "require": {
@@ -19,9 +14,9 @@
         "symfony/twig-bundle": "2.*"
     },
     "autoload": {
-        "psr-0": { "NSM\\Bundle\\EmojiBundle": "" }
+        "psr-0": { "SAI\\EmojiBundle": "" }
     },
-    "target-dir": "NSM/Bundle/EmojiBundle",
+    "target-dir": "SAI/emoji",
     "extra": {
         "branch-alias": {
             "dev-master": "*"
